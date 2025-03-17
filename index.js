@@ -6,6 +6,7 @@ const port = process.env.PORT | 3004
 const serverless= require('serverless-http')
 
 app.get('/vinod',(req,res)=>{
+    console.log("naveen vinod")
     res.status(200).send('i love my wife.She is very beatiful with character')
 })
 
